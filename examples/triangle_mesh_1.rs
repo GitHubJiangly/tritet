@@ -91,4 +91,5 @@ fn main() -> Result<(), StrError> {
         .set_figure_size_points(600.0, 600.0)
         .save("/tmp/tritet/example_triangle_mesh_1.svg")?;
     Ok(())
+    
 }
